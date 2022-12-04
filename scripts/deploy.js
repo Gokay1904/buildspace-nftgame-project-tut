@@ -15,7 +15,7 @@ const main = async () => {
     );
     await gameContract.deployed();
     console.log("Contract deployed to:", gameContract.address);
-
+    //For minting the character to the related testnet service I used GoerliETH.
     let txn;
     txn = await gameContract.mintCharacterNFT(0);
     await txn.wait();
@@ -28,12 +28,6 @@ const main = async () => {
     txn = await gameContract.mintCharacterNFT(2);
     await txn.wait();
     console.log("3# MINTED")
-
-    txn = await gameContract.attackBoss();
-    await txn.wait();
-
-    txn = await gameContract.attackBoss();
-    await txn.wait();
 
     console.log("Done");
 
