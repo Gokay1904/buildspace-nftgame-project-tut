@@ -1,4 +1,5 @@
 const main = async () => {
+    //deploy.js project uses ITPS protocol to store datas.
     const gameContractFactory = await hre.ethers.getContractFactory('MyEpicGame');
     const gameContract = await gameContractFactory.deploy(
         ["Gandalf", "Aragorn", "Gimli"],       // Names
