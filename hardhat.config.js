@@ -15,3 +15,5 @@ module.exports = {
     },
   },
 };
+
+// I used .ENV extension. This part is critical. If your Metamask/or related private key is shared openly. Your metamask account can be stolen.
