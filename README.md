@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+![Cover Image](https://user-images.githubusercontent.com/25516047/205494606-a141ddb1-0121-494e-ba19-0abbaf62d4c6.PNG)
