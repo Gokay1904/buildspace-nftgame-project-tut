@@ -11,6 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+---
 
 In this project I took a general view on concepts such as:
 - Hardhat on Etherium VM,
@@ -19,10 +20,10 @@ In this project I took a general view on concepts such as:
 - Back-end development using nodeJS,
 
 and I learned:
--- For what purpose sites such as opensea, pinata are used?
--- What is ISTP Protocol and why it is useful?
--- How to write simple NFT game projects?
--- How to use web3js library
+- For what purpose sites such as opensea, pinata are used?
+- What is ISTP Protocol and why it is useful?
+- How to write simple NFT game projects?
+- How to use web3js library
 etc..
 
 
