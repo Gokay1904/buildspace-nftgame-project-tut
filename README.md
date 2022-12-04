@@ -13,10 +13,10 @@ npx hardhat run scripts/deploy.js
 ```
 
 In this project I took a general view on concepts such as:
--- Hardhat on Etherium VM,
--- Smart Contract on Solidity, 
--- Front-end development with React,
--- Back-end development using nodeJS,
+- Hardhat on Etherium VM,
+- Smart Contract on Solidity, 
+- Front-end development with React,
+- Back-end development using nodeJS,
 
 and I learned:
 -- For what purpose sites such as opensea, pinata are used?
